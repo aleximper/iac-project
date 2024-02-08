@@ -1,15 +1,15 @@
 locals {
   m_conf={
     m1={
-      ip="10.0.1.10"
+      ip="172.16.128.10"
       subnet=local.private_subnets[0]
     }
     m2={
-      ip="10.0.1.11"
+      ip="172.16.130.10"
       subnet=local.private_subnets[1]
     }
     m3={
-      ip="10.0.1.12"
+      ip="172.16.128.11"
       subnet=local.private_subnets[0]
     }
   }  
